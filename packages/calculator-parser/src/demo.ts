@@ -1,4 +1,4 @@
-import { tokenize, parse, evaluate } from './index.js';
+import { tokenize, parse, evaluate } from './core/index.js';
 
 const input = '2 + 3 * (4 - 1)';
 const tokens = tokenize(input);

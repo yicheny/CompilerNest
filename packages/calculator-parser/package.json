@@ -2,7 +2,7 @@
   "name": "@compilernest/calculator-parser",
   "version": "0.1.0",
   "type": "module",
-  "main": "dist/index.js",
+  "main": "dist/core/index.js",
   "bin": {
     "calc": "dist/cli.js"
   },

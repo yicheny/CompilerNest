@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { tokenize, parse, evaluate } from './index.js';
+import { tokenize, parse, evaluate } from './core/index.js';
 
 function main() {
   const input = process.argv.slice(2).join(' ').trim();
