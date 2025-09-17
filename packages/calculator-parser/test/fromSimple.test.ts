@@ -27,13 +27,11 @@ describe('fromSimple 反解析', () => {
   });
 
   it('非法操作符时报错', () => {
-    // @ts-expect-error force invalid operator at runtime
     const simple: any = ['^', 2, 3];
     expect(() => fromSimple(simple)).toThrowError(/Invalid operator/);
   });
 
   it('非法结构时报错', () => {
-    // @ts-expect-error invalid shape
     const simple: any = ['+', 2];
     expect(() => fromSimple(simple)).toThrowError(/Invalid simple AST format/);
   });
